@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+  <title>GlobalSeguros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <header>
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 36 36" fill="none">
+        <path d="M18 2L5 7v10c0 8.6 5.5 16.6 13 19 7.5-2.4 13-10.4 13-19V7L18 2z" fill="#e74c3c"/>
+        <polyline points="10,18 16,24 26,13" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+      <span><strong>Global</strong>Seguros</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#footer">Contacto</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="btn-contact">Contact</a>
+  </header>
+
+
+
+  <section class="hero">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-orb orb-3"></div>
+    <div class="hero-text">
+      <span class="hero-badge">Lideres en proteccion educativa</span>
+      <h1>Seguridad<br>que fluye<br><em>contigo</em></h1>
+      <p>La seguridad no es estatica, evoluciona contigo. Protege tu futuro academico con planes inteligentes.</p>
+      <div class="hero-btns">
+        <a href="#planes" class="btn-primary">Ver planes</a>
+        <a href="#beneficios" class="btn-ghost">Conocer mas</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="bubble bubble-main">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" alt="Estudiante protegido">
+      </div>
+      <div class="floating-badge badge-top"><span>Cobertura total</span></div>
+      <div class="floating-badge badge-bottom"><span>+10.000 estudiantes</span></div>
+    </div>
+  </section>
+
+
+
+  <section class="seccion-info">
+    <div class="seccion-info-img">
+      <div class="info-bubble">
+        <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Familia protegida">
+      </div>
+    </div>
+    <div class="seccion-info-text">
+      <h2>Su futuro debe ser una realidad, no un deseo.</h2>
+      <p>La vida esta llena de imprevistos que no deberian frenar el desarrollo academico de los tuyos. Nuestros seguros educativos funcionan como un blindaje economico que garantiza que, sin importar lo que suceda, la formacion se continua sin comprometer el bienestar financiero al final de las etapas.</p>
+      <a href="#planes" class="btn-primary">Ver planes educativos</a>
+    </div>
+  </section>
+
+
+  <section class="seccion-info reverse">
+    <div class="seccion-info-text">
+      <h2>La estrategia inteligente para asegurar tu universidad.</h2>
+      <p>El portafolio cuidadosamente disenado te permite cumplir una realidad universitaria sin detenerte por dificultades economicas. Con nuestra plataforma accedes a los mecanismos necesarios para alcanzar la formacion universitaria en Colombia y el mundo.</p>
+      <p style="margin-top:16px">Te asesoramos y programamos estrategias individuales sobre la base de tus tiempos reales de vida, proyeccion y metas para alcanzar tu formacion universitaria con condiciones a la medida.</p>
+      <a href="#planes" class="btn-primary" style="margin-top:28px;display:inline-block">Quiero asesoria</a>
+    </div>
+    <div class="seccion-info-img">
+      <div class="info-bubble">
+        <img src="https://cdn-icons-png.flaticon.com/512/6598/6598519.png" alt="Escudo proteccion">
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="planes" id="planes">
+    <div class="planes-header">
+      <h2>Planes Pregrado</h2>
+      <p>Elige el plan que mejor se adapte a tu vida y metas academicas</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">Basico</div>
+        <h3>GlobalSemestres</h3>
+        <div class="price">$120<span>/mes</span></div>
+        <ul>
+          <li>Cobertura completa por semestre</li>
+          <li>Proteccion universitaria basica</li>
+          <li>Pago flexible mensual</li>
+          <li>Seguro educativo garantizado</li>
+          <li>Atencion 24/7</li>
+        </ul>
+        <button onclick="seleccionarPlan('GlobalSemestres')">Lo quiero!</button>
+      </div>
+      <div class="card card-featured">
+        <div class="card-badge-popular">Mas popular</div>
+        <div class="card-icon">Premium</div>
+        <h3>GlobalUniversidad</h3>
+        <div class="price">$240<span>/mes</span></div>
+        <ul>
+          <li>Cobertura premium completa</li>
+          <li>Apoyo academico personalizado</li>
+          <li>Proteccion familiar incluida</li>
+          <li>Asistencia medica universitaria</li>
+          <li>Asesor dedicado</li>
+        </ul>
+        <button onclick="seleccionarPlan('GlobalUniversidad')">Lo quiero!</button>
+      </div>
+      <div class="card">
+        <div class="card-icon">Platinum</div>
+        <h3>Global Seguros</h3>
+        <div class="price">$350<span>/mes</span></div>
+        <ul>
+          <li>Cobertura total sin limites</li>
+          <li>Seguro de vida incluido</li>
+          <li>Proteccion internacional</li>
+          <li>Beneficios exclusivos VIP</li>
+          <li>Inversion con rendimientos</li>
+        </ul>
+        <button onclick="seleccionarPlan('Global Platinum')">Lo quiero!</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="beneficios" id="beneficios">
+    <div class="beneficios-text">
+      <span class="hero-badge">Tu futuro, nuestra prioridad</span>
+      <h2>Futuro asegurado.</h2>
+      <p>Nadie se conforma con la satisfaccion de verle alcanzar la meta. Hemos disenado este plan para que, al concluir su formacion, su hijo/a no solo sea un titulo, sino un individuo con la libertad de elegir su propio camino profesional.</p>
+      <p style="margin-top:16px">La academia y el programa educativo cuentan como la palanca que abre las puertas del futuro. Hoy estamos listos para hacerlo posible!</p>
+      <a href="#planes" class="btn-primary" style="margin-top:28px;display:inline-block">Mira nuestros planes educativos</a>
+    </div>
+    <div class="beneficios-visual">
+      <div class="info-bubble">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135823.png" alt="Graduado exitoso">
+      </div>
+      <div class="stat-card stat-1"><strong>+10K</strong><span>Estudiantes protegidos</span></div>
+      <div class="stat-card stat-2"><strong>98%</strong><span>Satisfaccion</span></div>
+    </div>
+  </section>
+
+
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo" style="margin-bottom:14px">
+          <svg width="24" height="24" viewBox="0 0 36 36" fill="none">
+            <path d="M18 2L5 7v10c0 8.6 5.5 16.6 13 19 7.5-2.4 13-10.4 13-19V7L18 2z" fill="#e74c3c"/>
+            <polyline points="10,18 16,24 26,13" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+          <span><strong>Global</strong>Seguros</span>
+        </div>
+        <p>Protegiendo el futuro academico de las familias colombianas desde 2010. Lideres en seguros educativos.</p>
+        <div class="footer-social">
+          <a href="#">in</a>
+          <a href="#">fb</a>
+          <a href="#">ig</a>
+          <a href="#">yt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Planes</h4>
+        <ul>
+          <li><a href="#">GlobalSemestres</a></li>
+          <li><a href="#">GlobalUniversidad</a></li>
+          <li><a href="#">Global Platinum</a></li>
+          <li><a href="#">Planes Posgrado</a></li>
+          <li><a href="#">Planes Familia</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#">Quienes somos</a></li>
+          <li><a href="#">Nuestro equipo</a></li>
+          <li><a href="#">Blog educativo</a></li>
+          <li><a href="#">Casos de exito</a></li>
+          <li><a href="#">Trabaja con nosotros</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Soporte</h4>
+        <ul>
+          <li><a href="#">Centro de ayuda</a></li>
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Terminos y condiciones</a></li>
+          <li><a href="#">Politica de privacidad</a></li>
+          <li><a href="#">Reclamaciones</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contactanos</h4>
+        <ul class="footer-contact-list">
+          <li>info@globalseguros.com</li>
+          <li>+57 300 000 0000</li>
+          <li>Bogota, Colombia</li>
+          <li>Lun a Vie: 8am - 6pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>2025 GlobalSeguros. Todos los derechos reservados.</p>
+      <p>Vigilado por la Superintendencia Financiera de Colombia</p>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="modal">
+    <div class="modal-box">
+      <h3 id="modal-titulo">Excelente eleccion!</h3>
+      <p id="modal-texto">Un asesor te contactara pronto para el plan seleccionado.</p>
+      <button onclick="cerrarModal()">Cerrar</button>
+    </div>
+  </div>
+
+ 
+</body>
+</html>
