@@ -23,7 +23,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ── HEADER ── */
+
 header {
   width: 100%;
   padding: 18px 7%;
@@ -83,7 +83,7 @@ nav a:hover {
   background: #dde8ff;
 }
 
-/* ── BOTONES REUTILIZABLES ── */
+
 .btn-primary {
   background: var(--amarillo);
   color: #0a1e6e;
@@ -119,7 +119,7 @@ nav a:hover {
   background: rgba(255, 255, 255, 0.08);
 }
 
-/* ── HERO ── */
+
 .hero {
   min-height: 100vh;
   display: flex;
@@ -337,7 +337,7 @@ nav a:hover {
   margin-bottom: 28px;
 }
 
-/* ── PLANES ── */
+
 .planes {
   padding: 100px 7%;
   background: rgba(0, 0, 0, 0.15);
@@ -468,7 +468,6 @@ nav a:hover {
   box-shadow: 0 8px 24px rgba(255, 214, 0, 0.3);
 }
 
-/* ── BENEFICIOS ── */
 .beneficios {
   padding: 100px 7%;
   display: flex;
