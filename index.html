@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
- 
   <title>GlobalSeguros</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-
   <header>
     <div class="logo">
       <svg width="28" height="28" viewBox="0 0 36 36" fill="none">
-        
+        <path d="M18 2L5 7v10c0 8.6 5.5 16.6 13 19 7.5-2.4 13-10.4 13-19V7L18 2z" fill="#e74c3c"/>
+        <polyline points="10,18 16,24 26,13" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
       </svg>
       <span><strong>Global</strong>Seguros</span>
     </div>
@@ -22,13 +22,12 @@
         <li><a href="#">Home</a></li>
         <li><a href="#planes">Planes</a></li>
         <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#sobre">Nosotros</a></li>
         <li><a href="#footer">Contacto</a></li>
       </ul>
     </nav>
     <a href="#" class="btn-contact">Contact</a>
   </header>
-
-
 
   <section class="hero">
     <div class="hero-orb orb-1"></div>
@@ -43,12 +42,8 @@
         <a href="#beneficios" class="btn-ghost">Conocer mas</a>
       </div>
     </div>
-    <div class="hero-visual">
-      
-    </div>
+    <div class="hero-visual"></div>
   </section>
-
-
 
   <section class="seccion-info">
     <div class="seccion-info-img">
@@ -62,7 +57,6 @@
       <a href="#planes" class="btn-primary">Ver planes educativos</a>
     </div>
   </section>
-
 
   <section class="seccion-info reverse">
     <div class="seccion-info-text">
@@ -78,7 +72,6 @@
     </div>
   </section>
 
-  
   <section class="planes" id="planes">
     <div class="planes-header">
       <h2>Planes Pregrado</h2>
@@ -145,7 +138,68 @@
     </div>
   </section>
 
+  <section class="gs-section" id="sobre" aria-label="Sobre la empresa GlobalSeguros">
+    <div class="gs-inner">
+      <div class="gs-layout">
 
+        <div>
+          <div class="gs-badge">Sobre la empresa</div>
+          <h2 class="gs-h2">¿Quiénes están<br>detrás de <span>Global?</span></h2>
+          <div class="gs-divider"></div>
+          <p class="gs-text">
+            Global Seguros es una compañía colombiana pionera y líder en seguros educativos.
+            Llevamos más de tres décadas protegiendo el futuro de miles de familias, ofreciendo
+            soluciones inteligentes en seguros de vida, pensiones voluntarias y rentas vitalicias.
+          </p>
+          <p class="gs-text">
+            Creemos que la seguridad no es un destino, es un camino que recorremos juntos.
+            Nuestro compromiso es estar contigo en cada etapa, brindando respaldo real,
+            confianza plena y tranquilidad duradera para ti y los tuyos.
+          </p>
+          <div class="gs-cards">
+            <div class="gs-card">
+              <div class="gs-card-icon"><i class="ti ti-calendar-check"></i></div>
+              <div class="gs-card-num">+35</div>
+              <div class="gs-card-desc">años de experiencia en el sector asegurador</div>
+            </div>
+            <div class="gs-card">
+              <div class="gs-card-icon"><i class="ti ti-users"></i></div>
+              <div class="gs-card-num">+200K</div>
+              <div class="gs-card-desc">clientes protegidos en todo el país</div>
+            </div>
+            <div class="gs-card">
+              <div class="gs-card-icon"><i class="ti ti-map-pin"></i></div>
+              <div class="gs-card-num">32</div>
+              <div class="gs-card-desc">departamentos con cobertura nacional</div>
+            </div>
+            <div class="gs-card">
+              <div class="gs-card-icon"><i class="ti ti-shield-check"></i></div>
+              <div class="gs-card-num">AAA</div>
+              <div class="gs-card-desc">calificación de solidez financiera</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="gs-video-label">
+            <i class="ti ti-player-play" style="vertical-align:-1px; margin-right:6px;"></i>
+            Conoce nuestra historia
+          </div>
+          <div class="gs-video-wrap">
+            <iframe
+              src="https://streamable.com/ffamas"
+              title="Video institucional Global Seguros"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p class="gs-video-note">
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
   <footer id="footer">
     <div class="footer-top">
@@ -219,6 +273,6 @@
     </div>
   </div>
 
- 
+  <script src="script.js"></script>
 </body>
 </html>
